@@ -29,5 +29,4 @@ jobs:
       run: npm install
     - name: running
       run: npm run develop
-    - name: test
-      run: npm test
+
