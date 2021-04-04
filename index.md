@@ -1,1 +1,1 @@
-<p>Hello World</p>
+<script src="src/pages/index.js"></script>
