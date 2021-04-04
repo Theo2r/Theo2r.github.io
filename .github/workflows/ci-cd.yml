@@ -26,9 +26,17 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: install
-      run: npm install
-    - run: gatsby build
-    - run: npm adduser
-    - run: npm whoami
+        npm install
+    - name: build
+        gatsby build
+    - name: adduser
+        npm adduser
+    - name: whoami
+        npm whoami
     - name: publish
-      run: npm publish
+        npm publish
+
+
+
+
+
